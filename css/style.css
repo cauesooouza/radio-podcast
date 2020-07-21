@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  padding: 50px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.radio {
+  width: auto;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.radio h1 {
+  font-family: 'Rowdies', cursive;
+  font-size: 48px;
+  line-height: 0;
+  letter-spacing: 3px;
+}
+
+.radioPodcast{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column; 
+
+  font-family: 'PT Sans', sans-serif;
+}
+
+.radioPodcast h2 {
+  font-family: 'Lobster', cursive;
+  font-size: 36px;
+  line-height: 0px; 
+}
+
+.radioPodcast img {
+  width: 350px;
+  height: 150px;
+}
+
+#radioFrequency { 
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid #000;
+
+  font-size: 15px;
+  text-align: center;
+
+  padding: 10px;
+  margin: 10px;
+}
+
+#radioRange {
+  width: 250px;
+}
