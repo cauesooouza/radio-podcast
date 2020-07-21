@@ -21,7 +21,7 @@ var realPodscast = [
     img: '3.png',
   },
   {
-    id: '93.',
+    id: '93',
     title: 'DevNaEstrada',
     description:
       'Desenvolvimento em geral e historias de carreira de desenvolvedores.',
